@@ -1,9 +1,9 @@
-# Add your function here!
-
+# Add your functions here!
 
 
 def main():
     print("Enter the operation you want to perform: ")
+
     user_operation = input()
     user_input1 = int(input("Enter the first number: "))
     user_input2 = int(input("Enter the second number: "))
@@ -18,5 +18,6 @@ def main():
         divide(user_input1, user_input2)
     elif user_operation == "modulo":
         modulo(user_input1, user_input2)
+
 
 main()
