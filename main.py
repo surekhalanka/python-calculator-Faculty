@@ -3,15 +3,21 @@ def add(num1,num2):
     print("The result is : ", result)
 
 
-    def substract(num1,num2):
-        result = num1-num2
+def substract(num1,num2):
+    result = num1-num2
     print("The result of sub is: ", result)
-
 
 def multi(num1,num2):
-        result = num1* num2
+    result = num1* num2
     print("The result of sub is: ", result)
 
+def divide (num1, num2):
+    result = num1 / num2
+    print("The result is :", result)
+
+def modulo (num1, num2):
+    result = num1 % num2
+    print("The resut is :", result)
 
 def main():
     print("Enter the operation you want to perform: ")
